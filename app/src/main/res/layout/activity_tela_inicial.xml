@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,46 +10,149 @@
     <EditText
         android:id="@+id/cam_pais"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textSize="20sp"
-        android:hint="Informe o Nome do País" />
+        android:textSize="15sp"
+        android:hint="Informar o Nome do País" />
 
     <Button
         android:id="@+id/btn_paises"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="PAÍSES"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <EditText
         android:id="@+id/cam_numero"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:ems="10"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:inputType="number"
         android:hint="Informar um Número"/>
+
+    <Space
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
 
     <Button
         android:id="@+id/btn_parametro"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="PARÂMETRO"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
+
+    <Space
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
 
     <Button
         android:id="@+id/btn_resultado"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="RESULTADO"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
+
+    <Space
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
 
     <Button
-        android:id="@+id/btn_menu"
+        android:id="@+id/btn_menu_action_bar"
         android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="MENU ACTION BAR"
+        android:textSize="15sp" />
+
+    <Space
         android:layout_height="wrap_content"
-        android:text="MENU"
-        android:textSize="20sp" />
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="TOOLBAR"
+        android:textSize="15sp" />
+
+    <Space
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_frame1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="FRAME LAYOUT 1"
+        android:textSize="15sp"/>
+
+    <Space
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_linear1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="LINEAR LAYOUT 1"
+        android:textSize="15sp"/>
+
+    <Space
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="CONSTRAINT LAYOUT"
+        android:textSize="15sp"/>
+
+    <Space
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="SCROLL VIEW"
+        android:textSize="15sp" />
+
+
+    <Space
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_menu_lateral"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="MENU LATERAL"
+        android:textSize="15sp"/>
+
+    <Space
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_lists_cards"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="LISTS AND CARDS"
+        android:textSize="15sp"/>
+
+    <Space
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_sair"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="SAIR"
+        android:textSize="15sp" />
+
 </LinearLayout>
+

@@ -10,12 +10,62 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.LMSApp5"
-        tools:targetApi="31">
+        tools:targetApi="33">
         <activity
-            android:name=".PaisesActivity"
+            android:name=".DisciplinaActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.MenuToolbar"
+            android:parentActivityName=".ListsAndCardsActivity"></activity>
+        />
+
+        <activity
+            android:name=".ListsAndCardsActivity"
             android:exported="false" />
         <activity
-            android:name=".DebugActivity"
+            android:name=".DisciplinaAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".MenuLateralActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConstraintLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LinearLayout4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LinearLayout3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LinearLayout2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LinearLayout1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".FrameLayout5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".FrameLayout4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".FrameLayout3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".FrameLayout2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".FrameLayout1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ToolbarActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.MenuToolbar" />
+        <activity
+            android:name=".MenuActionBarActivity"
             android:exported="false" />
         <activity
             android:name=".ResultadoActivity"
@@ -24,10 +74,16 @@
             android:name=".ParametroActivity"
             android:exported="false" />
         <activity
+            android:name=".PaisesActivity"
+            android:exported="false" />
+        <activity
             android:name=".TelaInicialActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DebugActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -39,5 +95,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

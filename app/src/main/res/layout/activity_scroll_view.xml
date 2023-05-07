@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Usuário:" />
+
+    <TextView
+        android:id="@+id/txt_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Password:" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#AAAAAA">
+
+            <TextView
+                android:id="@+id/msg_inicial"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:textSize="20sp"
+                android:text="Mensagem Inicial" />
+
+            <Button
+                android:id="@+id/btn_sair"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:text="SAIR"
+                android:textSize="20sp" />>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

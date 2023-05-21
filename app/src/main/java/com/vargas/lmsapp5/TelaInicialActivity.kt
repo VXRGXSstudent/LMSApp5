@@ -15,7 +15,7 @@ class TelaInicialActivity : AppCompatActivity() {
     private val binding by lazy {
         ActivityTelaInicialBinding.inflate(layoutInflater)
     }
-    val paises = listOf("Alemanha", "Brasil", "Estados Unidos", "Inglaterra", "Italia")
+    val paises = listOf("Angola", "Brasil", "Mocambique", "Portugal", "Guiné Bissau", "Timor Leste", "Guiné Equatorial", "Cabo Verde", "São Tomé e Príncipe")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

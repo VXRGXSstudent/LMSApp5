@@ -13,19 +13,28 @@ class PaisesActivity : DebugActivity() {
         ActivityPaisesBinding.inflate(layoutInflater)
     }
 
-    val paises = listOf("Alemanha","Brasil", "Estados Unidos", "Inglaterra", "Italia")
-    val localizacao = listOf("Europa", "América do Sul", "América do Norte", "Europa", "Europa")
-    val idioma = listOf("alemão", "português", "inglês", "inglês", "italiano")
-    val habitantes = listOf(1000, 2000, 3000, 4000, 5000)
-    val area = listOf(10000, 20000, 30000, 40000, 50000)
-    val bandeira = listOf(R.drawable.img_bandeira_alemanha,
-        R.drawable.img_bandeira_brasil, 2,
-        R.drawable.img_bandeira_inglaterra,
-        R.drawable.img_bandeira_italia)
-    val mapa = listOf(R.drawable.img_mapa_alemanha,
-        R.drawable.img_mapa_brasil, 2,
-        R.drawable.img_mapa_inglaterra,
-        R.drawable.img_mapa_italia)
+    val paises = listOf("Brasil", "Angola", "Mocambique", "Portugal", "Guiné Bissau", "Timor Leste", "Guiné Equatorial", "Cabo Verde", "São Tomé e Príncipe")
+    val localizacao = listOf("América do Sul", "África", "África", "Europa", "África", "Ásia", "África", "África", "África" )
+    val habitantes = listOf("210.147.125", "33.934.000", "32.080.000", "10.310.000", "12.410.000", "1.344.000", "676.273", "587.925", "162.755")
+    val area = listOf("8.510.000", "1.246.700", "801.590", "92.212", "245.875", "14.919", "28.051", "4.033", "964")
+    val bandeira = listOf(R.drawable.img_bandeira_brasil,
+        R.drawable.img_bandeira_angola,
+        R.drawable.img_bandeira_mocambique,
+        R.drawable.img_bandeira_portugal,
+        R.drawable.img_bandeira_guine_bissau,
+        R.drawable.img_bandeira_timor,
+        R.drawable.img_bandeira_guine_equatorial,
+        R.drawable.img_bandeira_cabo_verde,
+        R.drawable.img_bandeira_sao_tome)
+    val mapa = listOf(R.drawable.img_mapa_brasil,
+        R.drawable.img_mapa_angola,
+        R.drawable.img_mapa_mocambique,
+        R.drawable.img_mapa_portugal,
+        R.drawable.img_mapa_guine_bissau,
+        R.drawable.img_mapa_timor,
+        R.drawable.img_mapa_guine_equatorial,
+        R.drawable.img_mapa_cabo_verde,
+        R.drawable.img_mapa_sao_tome)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,7 +46,6 @@ class PaisesActivity : DebugActivity() {
         binding.camLocalizacao.text = localizacao[pos]
         binding.camHabitantes.text = habitantes[pos].toString()
         binding.camArea.text = area[pos].toString()
-        binding.camIdioma.text = idioma[pos]
         binding.imgBandeira.setImageResource(bandeira[pos])
         binding.imgMapa.setImageResource(mapa[pos])
     }

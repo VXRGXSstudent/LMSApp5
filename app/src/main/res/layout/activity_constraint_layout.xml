@@ -50,16 +50,15 @@
 
     <Button
         android:id="@+id/btn_sair"
-        android:text="SAIR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginEnd="31dp"
-        app:layout_constraintRight_toRightOf="@+id/img_imagem"
-        android:layout_marginTop="178dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="40dp"
+        android:text="SAIR"
         android:textSize="20sp"
+        app:layout_constraintRight_toRightOf="@+id/img_imagem"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginRight="31dp" />
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

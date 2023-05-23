@@ -41,7 +41,7 @@ class LoginActivity : DebugActivity() {
                     builder.setMessage("Usuário(a) Não Cadastrado(a).")
                     builder.create()
                     builder.show()
-                } else if (!(binding.camPassword.text.toString().equals("12345"))) {
+                } else if (!(binding.camPassword.text.toString().equals("2201259"))) {
                     builder.setTitle("Informações do Login:")
                     builder.setMessage("Password Inválida.")
                     builder.create()
